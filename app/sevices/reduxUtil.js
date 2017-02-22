@@ -10,6 +10,3 @@ export function createReducer(initState, handlers) {
     return handler ? handler(state, action) : state;
   };
 }
-
-
-
