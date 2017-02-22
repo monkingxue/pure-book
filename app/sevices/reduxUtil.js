@@ -1,4 +1,5 @@
 /**
+ * reducer 辅助函数
  * @param  {object} initState
  * @param  {Object} handlers
  * @return {Reducer}
