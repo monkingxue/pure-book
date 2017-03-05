@@ -1,3 +1,7 @@
-/**
- * Created by xueyingchen on 2017/2/22.
- */
+import {compose} from "./basicUtil";
+
+const kernel = () => {
+  // request
+};
+
+const applyMiddlewares = (...middlewares) => data => compose(...middlewares)(data);
