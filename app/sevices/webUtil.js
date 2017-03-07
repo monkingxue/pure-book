@@ -40,7 +40,7 @@ const kernel = (method, url, body, query) => {
   const network = fetch(url, config);
 
   const timeout = new Promise((resolve, reject) => {
-    setTimeout(() => reject("网络请求超时，请重试"), EXPIRES);
+    setTimeout(reject, EXPIRES, {error: "网络请求超时，请重试"});
   });
 
   return Promise.race([network, timeout]);
