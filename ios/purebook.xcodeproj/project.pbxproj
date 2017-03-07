@@ -57,6 +57,8 @@
 		03809164E4E04362B250C103 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3F62F3281A24672BDF95100 /* Rubik-Medium.ttf */; };
 		D620F86E6B904131992474A2 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A33C3F613B94ED78285351E /* Rubik-MediumItalic.ttf */; };
 		D41C38177F844EE49F465A09 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA2DBF3B1AFE4157807E03EC /* Rubik-Regular.ttf */; };
+		01E32F3050BC4EA6B731C12C /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41E01F3BD7DD4DFA9B98B798 /* MaterialCommunityIcons.ttf */; };
+		EC3841AFCB5A453382176196 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C628EBE945A40F686C552DB /* SimpleLineIcons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -301,6 +303,8 @@
 		F3F62F3281A24672BDF95100 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; name = "Rubik-Medium.ttf"; path = "../node_modules/@shoutem/ui/fonts/Rubik-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		4A33C3F613B94ED78285351E /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Rubik-MediumItalic.ttf"; path = "../node_modules/@shoutem/ui/fonts/Rubik-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		CA2DBF3B1AFE4157807E03EC /* Rubik-Regular.ttf */ = {isa = PBXFileReference; name = "Rubik-Regular.ttf"; path = "../node_modules/@shoutem/ui/fonts/Rubik-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		41E01F3BD7DD4DFA9B98B798 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2C628EBE945A40F686C552DB /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -558,6 +562,8 @@
 				F3F62F3281A24672BDF95100 /* Rubik-Medium.ttf */,
 				4A33C3F613B94ED78285351E /* Rubik-MediumItalic.ttf */,
 				CA2DBF3B1AFE4157807E03EC /* Rubik-Regular.ttf */,
+				41E01F3BD7DD4DFA9B98B798 /* MaterialCommunityIcons.ttf */,
+				2C628EBE945A40F686C552DB /* SimpleLineIcons.ttf */,
 			);
 			name = Resources;
 			path = "";
@@ -940,6 +946,8 @@
 				03809164E4E04362B250C103 /* Rubik-Medium.ttf in Resources */,
 				D620F86E6B904131992474A2 /* Rubik-MediumItalic.ttf in Resources */,
 				D41C38177F844EE49F465A09 /* Rubik-Regular.ttf in Resources */,
+				01E32F3050BC4EA6B731C12C /* MaterialCommunityIcons.ttf in Resources */,
+				EC3841AFCB5A453382176196 /* SimpleLineIcons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
