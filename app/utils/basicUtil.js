@@ -1,3 +1,8 @@
+/**
+ * compose the functions like a pipe
+ * @param funcs
+ * @return {*}
+ */
 export const compose = (...funcs) => {
   if (funcs.length === 0) {
     return arg => arg;

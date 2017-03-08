@@ -1,5 +1,8 @@
-import React, {Component} from "react";
+import React from "react";
+import {Provider} from "react-redux";
 import {Actions, Scene, Router} from "react-native-router-flux";
+
+import {store} from "./store";
 
 import Home from "./pages/home";
 
@@ -13,6 +16,8 @@ const scenes = Actions.create(
 
 export default () => {
   return (
-    <Router scenes={scenes}/>
+    <Provider store={store}>
+      <Router scenes={scenes}/>
+    </Provider>
   );
 };
