@@ -7,4 +7,4 @@ A react-native project on IOS about read and comment
 
 PS:要首先安装 yarn，这个直接百度即可，安装非常简单
 
-测试测试测试测试
+I need reset merge.

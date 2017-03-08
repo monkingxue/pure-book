@@ -6,18 +6,18 @@ import {httpGet, httpPost, httpPut} from "../utils/webUtil";
  */
 export default class UserService {
   static checkLogin() {
-
+    
   }
-
+  
   static add() {
-
+    
   }
-
+  
   static login() {
-
+    
   }
-
+  
   static logout() {
-
+    
   }
 }
